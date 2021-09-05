@@ -1,0 +1,27 @@
+.dataFormat{
+    width: 98%;
+    height: 400px;
+    margin: 12px;
+
+}
+
+.dataFormat-grid{
+    font-family: sans-serif;
+}
+
+.dataFormat-grid-toolbar{
+    position:relative;
+}
+
+.firstAxis-cell-color{
+    background-color: teal;
+}
+
+.secondAxis-cell-color{
+    background-color:yellowgreen;
+}
+
+.thirdAxis-cell-color{
+    background-color:tan;
+}
+

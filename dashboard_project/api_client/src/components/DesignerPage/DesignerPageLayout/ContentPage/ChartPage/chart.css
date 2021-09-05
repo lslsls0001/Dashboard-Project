@@ -1,0 +1,94 @@
+.chart{
+    margin: 10px;
+    height:98.5%;
+    width:auto;
+}
+
+.chart-selection{
+    display: inline-block;
+    height: 800px;
+    width: 98%;
+    margin: 10px 10px 5px 10px;
+    border:1.5px solid #1da57a;
+    border-radius: 10px;
+}
+
+.chart-selection-description{
+    display:block;
+    width:380px;
+    height:10px;
+    position:relative;
+    top: -10px;
+    left: 5px;
+    text-align:center;
+    background: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.chart-selection-divider{
+    color: black;
+    border: 0;
+    font-size: 14px;
+    padding: 1em 0;
+    width:97%;
+    margin-left:15px;
+    position: relative;
+}
+
+.chart-selection-divider::before{
+    content: attr(data-content);
+    position: absolute;
+    padding: 0 1ch;
+    line-height: 1px;
+    border: solid #d0d0d5;
+    border-width: 0 99vw;
+    width: fit-content;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chart-display{
+    display: inline-block;
+    height: 800px;
+    width: 98%;
+    margin: 5px 10px;
+    border:1.5px solid #1da57a;
+    border-radius: 10px;
+}
+
+.chart-display-description{
+    display:block;
+    width:250px;
+    height:10px;
+    position:relative;
+    top: -10px;
+    left: 5px;
+    text-align:center;
+    background: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.chart-publish{
+    display: inline-block;
+    height: 217px;
+    width: 98%;
+    margin: 5px 10px;
+    border:1.5px solid #1da57a;
+    border-radius: 10px;
+}
+
+.chart-publish-description{
+    display:block;
+    width:310px;
+    height:10px;
+    position:relative;
+    top: -10px;
+    left: 5px;
+    text-align:center;
+    background: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}

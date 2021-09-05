@@ -1,0 +1,43 @@
+.data-inquery{
+    width:100%;
+}
+
+.data-inquery-form{
+    width:auto;
+    height:140px;
+    margin:8px;
+}
+
+.data-inquery-form-table-select{
+    display: block;
+    width: 190px;
+    margin:5px 0px;
+}
+
+.data-inquery-form-chart-select{
+    display: block;
+    width: 190px;
+    margin:5px 0px;
+}
+
+.data-inquery-form-first-axis-select{
+    display: block;
+    width: 190px;
+    margin:5px 0px;
+}
+
+.data-inquery-form-second-axis-select{
+    display: block;
+    width: 190px;
+    margin:5px 0px;
+}
+
+.data-inquery-form-third-axis-select{
+    display: block;
+    width: 190px;
+    margin:5px 0px;
+}
+
+.data-inquery-form-submit{
+    display: block;
+}

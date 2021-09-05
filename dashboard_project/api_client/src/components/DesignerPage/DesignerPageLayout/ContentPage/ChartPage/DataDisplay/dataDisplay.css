@@ -1,0 +1,24 @@
+.dataDisplay-root{
+    width:100%;
+    height:100%;
+}
+
+.dataDisplay-container{
+    width: 100%;
+    height: 400px;
+}
+
+.dataDisplay{
+    width:372px;
+    height:322px;
+    margin:8px;
+    border: 1px solid blue;
+    background-color: blue;
+    background-repeat:no-repeat; 
+    display: inline-block;
+
+}
+
+.dataDisplay-plot{
+    margin:auto auto;
+}

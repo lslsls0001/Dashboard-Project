@@ -1,0 +1,18 @@
+.dataPublish-container{
+    width:90%;
+}
+
+.dataPublish-text{
+    width:auto;
+    height:auto;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 13px;
+}
+
+.dataPublish-button{
+    width:auto;
+    height: auto;
+    margin:8px;
+}

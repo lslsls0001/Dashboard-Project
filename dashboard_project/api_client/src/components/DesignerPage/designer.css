@@ -1,0 +1,41 @@
+.designer{
+    height:100%;
+    width: 100%;
+}
+
+.designer-leftBar{
+    height:2000px;
+    width: 100%;
+    background-color:rgb(24, 90, 165);
+    background-size: 100% 100%;
+}
+
+.designer-rightContent{
+    height:2000px;
+    width: 100%;
+}
+
+.designer-rightContent-header{
+    background-color: rgb(255, 255, 255);
+    height:80px;
+    width: 100%;
+}
+
+.designer-rightContent-content{
+    background-color: rgb(240, 243, 246);
+    height:1885px;
+    width: 100%;
+}
+
+.designer-rightContent-footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+.designer-rightContent-footer a{
+    color: blue;
+    text-decoration:none;
+}
+

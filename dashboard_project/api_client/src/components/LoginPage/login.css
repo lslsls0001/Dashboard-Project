@@ -1,0 +1,57 @@
+.login{
+    width:100%;
+    height:100%;
+    background-image: url("../../../static/images/bg.jpg");
+    background-size: 100% 100%;
+}
+
+.login-header{
+    display:flex;
+    align-items: center;
+    height: 12%;
+    background-color: rgb(22, 122, 126);
+}
+
+.login-header img {
+    width: 5%;
+    height: 70%;
+    margin: 0 20px 0 20px;
+}
+.login-header h1 {
+    font-size:35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orange;
+}
+
+.login-content{
+    width:400px;
+    height:400px;
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 20px 40px;
+}
+
+.login-content h2{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+}
+
+.login-content form{
+    height: 70%;
+    width: auto;
+    text-align: center;
+}
+
+.login-content form button{
+    display: block;
+    margin:15px auto;
+    width: 100%;
+}
+
+.login-content-error{
+    height:40px;
+    width: auto;
+}
